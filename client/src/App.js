@@ -1,10 +1,12 @@
 import { useEffect, useState, useCallback } from "react";
-import Table from "./Table";
 import axios from "axios";
+
+import Table from "./Table";
 
 const App = () => {
         const [data, setData] = useState([]);
 
+        // helper function for fetching users using axios
         const fetchData = async (query) => {
               const res = await axios.get(`http://localhost:5500?q=${query}`);
               setData(res.data);
