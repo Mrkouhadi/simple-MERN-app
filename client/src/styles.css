@@ -4,18 +4,20 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+html{
+  font-size: 62.5%;
+}
 .app {
-  margin: 50px;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 900px;
+  /* min-width: 900px; */
 }
 
 .search {
-  padding: 10px;
-  font-size: 20px;
+  padding: 1rem;
+  font-size: 2rem;
 }
 
 .list {
@@ -25,36 +27,48 @@ body {
 }
 
 .listItem {
-  margin-bottom: 20px;
-  font-size: 25px;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
   color: #444;
   font-weight: 300;
 }
 
 table {
   width: 100%;
-  margin: 50px 0px;
-  border-spacing: 15px;
+  margin: 1rem 0px;
+  border-spacing: 1.5rem;
   color: #444;
 }
 
 tr {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 th {
-  width: 250px;
+  width: 10rem;
   text-align: left;
-  font-size: 20px;
+  font-size: 2rem;
+  padding: .8rem 2px;
+  border-radius: .5rem;
+  background-color: rgb(120, 180, 240); color:#fff;
+  color: #444;
 }
 
 td {
-  width: 250px;
-  font-size: 20px;
+  width: 10rem;
+  font-size: 2rem;
+  padding: .8rem 2px;
+  border-radius: .5rem;
 }
-th{
-  background-color: dodgerblue; color:#fff;
-}
+
 tr:nth-child(even) {background: #CCC}
 tr:nth-child(odd) {background: #f88a8a}
-
+input{
+  width: 90%;
+  border-radius: 1rem;
+}
+@media screen and (max-width:500px){
+  html{
+    font-size: 40%;
+  }
+}
