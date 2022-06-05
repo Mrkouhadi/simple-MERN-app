@@ -13,7 +13,7 @@ const App = () => {
         // the first fetch
           useEffect(()=>{
               fetchData("");
-              console.log('first fetch !');
+              console.log('First Fetch !');
           },[]);
         // the deboucne function 
         const debounce = (ourFunc) => {
