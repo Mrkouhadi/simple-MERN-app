@@ -28,7 +28,6 @@ const App = () => {
               };
         };
         const updateQuery = useCallback(debounce(fetchData),[]);
-       
   return (
         <div className="app">
             <input className="search" placeholder="Search..." onChange={e=>updateQuery(e.target.value.toLowerCase())}/>

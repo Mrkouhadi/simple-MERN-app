@@ -50,8 +50,8 @@ th {
   font-size: 2rem;
   padding: 1.6rem .8rem;
   border-radius: .5rem;
-  background-color: rgb(120, 180, 240); color:#fff;
-  color: #444;
+  background-color: rgb(75, 87, 99); color:#fff;
+  color: rgb(240, 210, 210);
   text-align: center;
 }
 
