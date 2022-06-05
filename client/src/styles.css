@@ -48,10 +48,11 @@ th {
   width: 10rem;
   text-align: left;
   font-size: 2rem;
-  padding: .8rem 2px;
+  padding: 1.6rem .8rem;
   border-radius: .5rem;
   background-color: rgb(120, 180, 240); color:#fff;
   color: #444;
+  text-align: center;
 }
 
 td {
@@ -61,12 +62,14 @@ td {
   border-radius: .5rem;
 }
 
-tr:nth-child(even) {background: #CCC}
-tr:nth-child(odd) {background: #f88a8a}
+tr:nth-child(even) {background: rgb(229, 235, 222)}
+tr:nth-child(odd) {background: #cf8c8c}
+
 input{
   width: 90%;
   border-radius: 1rem;
 }
+
 @media screen and (max-width:500px){
   html{
     font-size: 40%;
